@@ -8,7 +8,9 @@ The goal of this repo is to provide a list of the JavaScript libraries that have
 
 ## How to contribute
 
-This repo is meant to be a collaborative effort (I can't list all adaptations by myself). The packages that are displayed in the [htmlwidgets gallery](https://gallery.htmlwidgets.org/) are automatically added to this list.
+This repo is meant to be a collaborative effort (I can't list all adaptations by myself). The packages that are displayed in the [htmlwidgets gallery](https://gallery.htmlwidgets.org/) are automatically added to this list every Sunday just before midnight UTC. 
+
+**To contribute, you only need to add an R package and the Javascript libraries it uses in `other_packages.csv`.** No need to render the R Markdown file, this will be done automatically via GitHub actions once your PR is accepted (it will take a few minutes to update the README).
 
 ## List
 
