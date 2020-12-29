@@ -1,6 +1,5 @@
 library(yaml)
 library(magrittr)
-library(tibble)
 
 # get list of widgets and details
 download.file("https://raw.githubusercontent.com/hafen/htmlwidgetsgallery/gh-pages/_config.yml", "config.yaml")
