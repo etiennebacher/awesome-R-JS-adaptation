@@ -1,12 +1,13 @@
-
-## Purpose of this repo
+Purpose of this repo
+--------------------
 
 The goal of this repo is to provide a list of the JavaScript libraries
 that have been adapted in R, so that R developers don’t lose too much
 time trying to determine if a particular JavaScript library has already
 been ported in R.
 
-## How to contribute
+How to contribute
+-----------------
 
 This repo is meant to be a collaborative effort (I can’t list all
 adaptations by myself). The packages that are displayed in the
@@ -18,139 +19,544 @@ libraries it uses in `other_packages.csv`.** No need to render the R
 Markdown file, this will be done automatically via GitHub actions once
 your PR is accepted (it will take a few minutes to update the README).
 
-## List
+List
+----
 
-| R Packages                                                                        | JavaScript libraries                                                                                                                                                                                                                                                   |
-| :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [rpdf](https://github.com/yonicd/rpdf)                                            | [pdf](https://github.com/mozilla/pdf.js), [jQuery](https://jquery.com/)                                                                                                                                                                                                |
-| [jsTree](https://github.com/metrumresearchgroup/jsTree)                           | [jsTree](https://www.jstree.com/), [jQuery](https://jquery.com/), [bootstrap](http://getbootstrap.com/)                                                                                                                                                                |
-| [shinyCanvas](https://github.com/metrumresearchgroup/shinyCanvas)                 | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [phylocanvas](https://zachcp.github.io/phylocanvas/)                              | [phylocanvas](https://github.com/phylocanvas)                                                                                                                                                                                                                          |
-| [msaR](https://zachcp.github.io/msaR/)                                            | [msa](https://github.com/wilzbach/msa)                                                                                                                                                                                                                                 |
-| [d3Tree](https://github.com/metrumresearchgroup/d3Tree)                           | [d3](http://d3js.org), [cycle](https://cycle.js.org/), [d3-tip](https://github.com/Caged/d3-tip)                                                                                                                                                                       |
-| [slickR](https://github.com/metrumresearchgroup/slickR)                           | [slick](https://github.com/kenwheeler/slick)                                                                                                                                                                                                                           |
-| [datamaps](https://github.com/htmlwidgets/datamaps)                               | [datamaps](http://datamaps.github.io), [d3](http://d3js.org)                                                                                                                                                                                                           |
-| [rChartsCalmap](https://github.com/ramnathv/rChartsCalmap)                        | [Cal-Heatmap](http://kamisama.github.io/cal-heatmap/), [d3](http://d3js.org)                                                                                                                                                                                           |
-| [leaflet](http://rstudio.github.io/leaflet/)                                      | [leaflet](http://leafletjs.com)                                                                                                                                                                                                                                        |
-| [DT](http://rstudio.github.io/DT/)                                                | [DataTables](https://www.datatables.net)                                                                                                                                                                                                                               |
-| [dygraphs](http://rstudio.github.io/dygraphs/)                                    | [dygraphs](http://dygraphs.com)                                                                                                                                                                                                                                        |
-| [metricsgraphics](http://hrbrmstr.github.io/metricsgraphics/)                     | [metricsgraphicsjs](http://metricsgraphicsjs.org), [d3](http://d3js.org)                                                                                                                                                                                               |
-| [streamgraph](http://hrbrmstr.github.io/streamgraph/)                             | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [networkD3](http://christophergandrud.github.io/networkD3/)                       | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [threejs](https://github.com/bwlewis/rthreejs)                                    | [threejs](http://threejs.org)                                                                                                                                                                                                                                          |
-| [DiagrammeR](http://rich-iannone.github.io/DiagrammeR/)                           | [d3](http://d3js.org),viz,[mermaid](http://knsv.github.io/mermaid/)                                                                                                                                                                                                    |
-| [sigmaGraph](https://github.com/jpmarindiaz/sigmaGraph)                           | [sigma](http://sigmajs.org)                                                                                                                                                                                                                                            |
-| [bubbleCloud](https://github.com/jpmarindiaz/bubbleCloud)                         | NA                                                                                                                                                                                                                                                                     |
-| [d3plus](https://github.com/jpmarindiaz/d3plus)                                   | [d3plus](http://d3plus.org), [d3](http://d3js.org)                                                                                                                                                                                                                     |
-| [isotope](https://github.com/jpmarindiaz/isotope)                                 | [isotope](http://isotope.metafizzy.co)                                                                                                                                                                                                                                 |
-| [D3TableFilter](https://github.com/ThomasSiegmund/D3TableFilter)                  | [TableFilter](http://tablefilter.free.fr), [d3](http://d3js.org), [jQuery Sparklines](http://omnipotent.net/jquery.sparkline/)                                                                                                                                         |
-| [rhandsontable](https://github.com/jrowen/rhandsontable/)                         | [handsontable](http://handsontable.com)                                                                                                                                                                                                                                |
-| [rcdimple](https://github.com/timelyportfolio/rcdimple)                           | [dimple](http://dimplejs.org), [d3](http://d3js.org)                                                                                                                                                                                                                   |
-| [sortableR](https://github.com/timelyportfolio/sortableR)                         | [sortablejs](http://rubaxa.github.io/Sortable/), [d3](http://d3js.org)                                                                                                                                                                                                 |
-| [parcoords](https://github.com/timelyportfolio/parcoords)                         | parcoords,[d3](http://d3js.org)                                                                                                                                                                                                                                        |
-| [listviewer](https://github.com/timelyportfolio/listviewer)                       | [jsoneditor](https://github.com/josdejong/jsoneditor), [d3](http://d3js.org)                                                                                                                                                                                           |
-| [svgPanZoom](https://github.com/timelyportfolio/svgPanZoom)                       | [svg-pan-zoom](https://github.com/ariutta/svg-pan-zoom)                                                                                                                                                                                                                |
-| [exportwidget](https://github.com/timelyportfolio/exportwidget)                   | exportwidget                                                                                                                                                                                                                                                           |
-| [imageR](https://github.com/timelyportfolio/imageR)                               | imageR                                                                                                                                                                                                                                                                 |
-| [chartist](https://github.com/yutannihilation/chartist)                           | [chartist.js](http://gionkunz.github.io/chartist-js/index.html)                                                                                                                                                                                                        |
-| [phylowidget](https://github.com/sdwfrost/phylowidget)                            | [phylotree.js](https://github.com/veg/phylotree.js)                                                                                                                                                                                                                    |
-| [qtlcharts](http://kbroman.org/qtlcharts/)                                        | [d3](http://d3js.org), [d3-tip](https://github.com/Caged/d3-tip)                                                                                                                                                                                                       |
-| [highchartR](https://github.com/jcizel/highchartR)                                | [highcharts](http://www.highcharts.com/products/highcharts)                                                                                                                                                                                                            |
-| [greatCircles](https://github.com/homeaway/great-circles)                         | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [sparklines](https://github.com/htmlwidgets/sparkline)                            | [jquery.sparkline](\(http://omnipotent.net/jquery.sparkline\))                                                                                                                                                                                                         |
-| [rWordCloud](https://github.com/adymimos/rWordCloud)                              | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [c3r](https://github.com/HarlanH/c3r)                                             | [c3js](http://c3js.org)                                                                                                                                                                                                                                                |
-| [dcStockR](https://github.com/yutannihilation/dcStockR)                           | [dc.js](https://dc-js.github.io/dc.js/)                                                                                                                                                                                                                                |
-| [scatterMatrixD3](https://github.com/jcizel/scatterMatrixD3)                      | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [rbokeh](https://hafen.github.io/rbokeh)                                          | [bokehjs](http://bokeh.pydata.org/en/latest/)                                                                                                                                                                                                                          |
-| [d3heatmap](https://github.com/rstudio/d3heatmap)                                 | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [rpivotTable](https://github.com/smartinsightsfromdata/rpivotTable)               | [pivottable](http://nicolas.kruchten.com/pivottable/examples/)                                                                                                                                                                                                         |
-| [formattable](http://renkun.me/formattable/)                                      | NA                                                                                                                                                                                                                                                                     |
-| [bubbles](http://github.com/jcheng5/bubbles)                                      | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [pairsD3](https://github.com/garthtarr/pairsD3)                                   | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [edgebundleR](https://github.com/garthtarr/edgebundleR)                           | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [katexR](http://www.buildingwidgets.com/blog/2015/2/5/week-05-katex-in-r)         | [KaTeX](https://github.com/Khan/KaTeX)                                                                                                                                                                                                                                 |
-| [navr](http://www.buildingwidgets.com/blog/2015/3/11/week-10-responsive-toolbars) | [responsive-nav](http://responsive-nav.com/)                                                                                                                                                                                                                           |
-| [gamer](http://www.buildingwidgets.com/blog/2015/4/21/week-16-gamer)              | [EntangledClone](https://github.com/Cacodaimon/EntangledClone)                                                                                                                                                                                                         |
-| [materializeR](http://www.buildingwidgets.com/blog/2015/5/1/week-17-materializer) | [materialize](http://materializecss.com/)                                                                                                                                                                                                                              |
-| [comicR](http://www.buildingwidgets.com/blog/2015/5/8/week-18-comicr)             | [comic.js](https://github.com/balint42/comic.js)                                                                                                                                                                                                                       |
-| [loryR](http://www.buildingwidgets.com/blog/2015/5/14/week-19-loryr-slider)       | [lory.js](http://meandmax.github.io/lory/)                                                                                                                                                                                                                             |
-| [d3vennR](http://www.buildingwidgets.com/blog/2015/6/5/week-22-d3vennr)           | [d3](http://d3js.org), [venn.js](https://github.com/benfred/venn.js)                                                                                                                                                                                                   |
-| [flowtypeR](http://www.buildingwidgets.com/blog/2015/6/17/week-24-flowtyper)      | [flowtype](http://simplefocus.com/flowtype)                                                                                                                                                                                                                            |
-| [sweetalertR](http://www.buildingwidgets.com/blog/2015/6/29/week-25-sweetalertr)  | [SweetAlert](http://t4t5.github.io/sweetalert)                                                                                                                                                                                                                         |
-| [sunburstR](http://www.buildingwidgets.com/blog/2015/7/2/week-26-sunburstr)       | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [d3hiveR](http://www.buildingwidgets.com/blog/2015/7/11/week-27-d3hiver)          | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [calheatmapR](http://durtal.github.io/calheatmapR/)                               | [d3](http://d3js.org), [cal-heatmap](https://kamisama.github.io/cal-heatmap/)                                                                                                                                                                                          |
-| [coffeewheel](https://github.com/armish/coffeewheel)                              | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [taucharts](https://github.com/hrbrmstr/taucharts)                                | [taucharts](http://www.taucharts.com/), [d3](http://d3js.org)                                                                                                                                                                                                          |
-| [vivagRaph](https://github.com/keeganhines/vivagRaph)                             | [vivagraph js](https://github.com/anvaka/VivaGraphJS)                                                                                                                                                                                                                  |
-| [rchess](https://github.com/jbkunst/rchess)                                       | [chessjs](https://github.com/jhlywa/chess.js), [chessboardjs](http://chessboardjs.com/)                                                                                                                                                                                |
-| [d3wordcloud](https://github.com/jbkunst/d3wordcloud)                             | [d3](http://d3js.org), [d3-cloud](https://github.com/jasondavies/d3-cloud)                                                                                                                                                                                             |
-| [plotly](https://plot.ly/r)                                                       | [plotly.js](https://github.com/plotly/plotly.js)                                                                                                                                                                                                                       |
-| [morrisjs](https://github.com/Tutuchan/morrisjs)                                  | [morris.js](http://morrisjs.github.io/morris.js/)                                                                                                                                                                                                                      |
-| [diffr](https://github.com/muschellij2/diffr)                                     | [codeeiff.js](https://github.com/danvk/codediff.js)                                                                                                                                                                                                                    |
-| [ggiraph](http://davidgohel.github.io/ggiraph)                                    | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [googleway](http://github.com/SymbolixAU/googleway)                               | [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/libraries)                                                                                                                                                                    |
-| [highcharter](http://jkunst.com/highcharter)                                      | [highcharts](http://www.highcharts.com)                                                                                                                                                                                                                                |
-| [mapview](https://github.com/environmentalinformatics-marburg/mapview)            | [leaflet.glify.js](https://github.com/robertleeplummerjr/Leaflet.glify), [jquery](https://jquery.com/)                                                                                                                                                                 |
-| [qrage](https://github.com/cran/qrage)                                            | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [radarchart](https://github.com/mangothecat/radarchart)                           | [chart.js](http://www.chartjs.org/)                                                                                                                                                                                                                                    |
-| [rAmCharts](http://datastorm-open.github.io/introduction_ramcharts/)              | [amCharts](https://www.amcharts.com/)                                                                                                                                                                                                                                  |
-| [rgl](https://r-forge.r-project.org/projects/rgl/)                                | NA                                                                                                                                                                                                                                                                     |
-| [scatterD3](https://github.com/juba/scatterD3)                                    | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [tmap](https://github.com/mtennekes/tmap)                                         | NA                                                                                                                                                                                                                                                                     |
-| [visNetwork](http://datastorm-open.github.io/visNetwork/)                         | [vis.js](http://visjs.org/)                                                                                                                                                                                                                                            |
-| [canvasXpress](https://github.com/neuhausi/canvasXpress/)                         | [canvasXpress](http://www.canvasXpress.org/)                                                                                                                                                                                                                           |
-| [c3](https://github.com/mrjoh3/c3)                                                | [c3.js](http://c3js.org/)                                                                                                                                                                                                                                              |
-| [pier](https://github.com/mrjoh3/pier)                                            | [d3pie.js](http://d3pie.org/)                                                                                                                                                                                                                                          |
-| [timevis](https://github.com/daattali/timevis#readme)                             | [vis.js](http://visjs.org/)                                                                                                                                                                                                                                            |
-| [wordcloud2](https://github.com/lchiffon/wordcloud2)                              | [wordcloud2.js](https://github.com/timdream/wordcloud2.js)                                                                                                                                                                                                             |
-| [candela](https://candela.readthedocs.io)                                         | [Candela](https://candela.readthedocs.io), [LineUp](http://www.caleydo.org/tools/lineup/), [UpSet](http://www.caleydo.org/tools/upset/), [OnSet](http://www.cc.gatech.edu/gvu/ii/setvis/), [Vega](https://vega.github.io/vega/), [GeoJS](http://geojs.readthedocs.io/) |
-| [collapsibleTree](https://AdeelK93.github.io/collapsibleTree/)                    | [d3](http://d3js.org)                                                                                                                                                                                                                                                  |
-| [diffRgit](https://github.com/abossi/diffRgit)                                    | [diff2html](https://diff2html.xyz)                                                                                                                                                                                                                                     |
-| [heatmaply](https://github.com/talgalili/heatmaply/)                              | [plotly.js](https://github.com/plotly/plotly.js)                                                                                                                                                                                                                       |
-| [D3plusR](https://github.com/paulofelipe/D3plusR)                                 | [D3plus](http://d3plus.org/)                                                                                                                                                                                                                                           |
-| [morpheus](https://github.com/cmap/morpheus.R)                                    | [morpheus.js](https://clue.io/morpheus)                                                                                                                                                                                                                                |
-| [leaflet.minicharts](https://github.com/rte-antares-rpackage/leaflet.minicharts)  | [leaflet.minichart.js](https://github.com/rte-antares-rpackage/leaflet.minicharts)                                                                                                                                                                                     |
-| [manipulateWidget](https://github.com/rte-antares-rpackage/manipulateWidget)      | NA                                                                                                                                                                                                                                                                     |
-| [BioCircos](https://github.com/lvulliard/BioCircos.R)                             | [BioCircos.js](http://bioinfo.ibp.ac.cn/biocircos/)                                                                                                                                                                                                                    |
-| [billboarder](https://github.com/dreamRs/billboarder)                             | [billboard](https://naver.github.io/billboard.js/)                                                                                                                                                                                                                     |
-| [lineupjs](https://github.com/lineupjs/lineup_htmlwidget)                         | [lineupjs](https://github.com/lineupjs/lineupjs)                                                                                                                                                                                                                       |
-| [upsetjs](https://github.com/upsetjs/upsetjs_r)                                   | [upsetjs](https://github.com/upsetjs/upsetjs)                                                                                                                                                                                                                          |
-| [shinyaframe](https://github.com/wmurphyrd/shinyaframe)                           | [A-Frame](http://aframe.io), [gg-aframe](https://github.com/wmurphyrd/gg-aframe)                                                                                                                                                                                       |
-| [mutsneedle](https://github.com/freezecoder/mutsneedle)                           | [muts-needle-plot](http://biojs.io/d/muts-needle-plot)                                                                                                                                                                                                                 |
-| [sigmaNet](https://github.com/iankloo/sigmaNet)                                   | [sigmajs](https://github.com/jacomyal/sigma.js)                                                                                                                                                                                                                        |
-| [bpexploder](https://homerhanumat.github.io/bpexploder)                           | [d3-exploding-boxplot](https://mcaule.github.io/d3_exploding_boxplot/)                                                                                                                                                                                                 |
-| [imageviewer](https://github.com/yapus/imageviewer)                               | [d3](http://d3js.org), [jQuery](https://jquery.com/)                                                                                                                                                                                                                   |
-| [echarts4r](http://echarts4r.john-coene.com/)                                     | [ECharts](http://echarts.baidu.com/)                                                                                                                                                                                                                                   |
-| [RagGrid](http://raggrid.netlify.com/)                                            | [agGrid](https://www.ag-grid.com/), [jQuery](https://jquery.com/)                                                                                                                                                                                                      |
-| [mapdeck](http://github.com/SymbolixAU/mapdeck)                                   | [Deck.gl](http://deck.gl/#/)                                                                                                                                                                                                                                           |
-| [MovingBubbles](https://github.com/chengvt/MovingBubbles)                         | [d3](https://d3js.org)                                                                                                                                                                                                                                                 |
-| [compareBars](https://github.com/daranzolin/compareBars)                          | [d3](https://d3js.org), [d3-tip](https://github.com/Caged/d3-tip)                                                                                                                                                                                                      |
-| [topogram](https://github.com/dreamRs/topogram)                                   | [cartogram-chart](https://github.com/vasturiano/cartogram-chart)                                                                                                                                                                                                       |
-| [d3rain](https://github.com/daranzolin/d3rain)                                    | [d3](https://d3js.org), [d3-tip](https://github.com/Caged/d3-tip)                                                                                                                                                                                                      |
-| [wavesurfer](https://github.com/athospd/wavesurfer#readme)                        | [wavesurfer.js](http://wavesurfer-js.org/)                                                                                                                                                                                                                             |
-| [parcats](https://erblast.github.io/parcats/)                                     | [plotly.js](https://plot.ly/javascript/)                                                                                                                                                                                                                               |
-| [apexcharter](https://github.com/dreamRs/apexcharter)                             | [ApexCharts](https://github.com/apexcharts/apexcharts.js)                                                                                                                                                                                                              |
-| [tuichartr](https://github.com/dreamRs/tuichartr)                                 | [tui.chart](https://github.com/nhn/tui.chart)                                                                                                                                                                                                                          |
-| [tuicalendr](https://github.com/dreamRs/tuicalendr)                               | [tui.calendar](https://github.com/nhn/tui.calendar)                                                                                                                                                                                                                    |
-| [grapher](https://grapher.network)                                                | [ngraph](https://github.com/anvaka/ngraph)                                                                                                                                                                                                                             |
-| [g2r](https://g2r.dev/)                                                           | [g2](https://github.com/antvis/g2)                                                                                                                                                                                                                                     |
-| [globe4r](https://globe4r.john-coene.com/)                                        | [globe.gl](https://github.com/vasturiano/globe.gl)                                                                                                                                                                                                                     |
-| [vennr](https://github.com/montilab/vennr)                                        | [d3](https://d3js.org), [venn.js](https://github.com/benfred/venn.js/)                                                                                                                                                                                                 |
-| [iheatmapr](https://docs.ropensci.org/iheatmapr)                                  | [plotly](https://plot.ly/)                                                                                                                                                                                                                                             |
-| [corrly](https://kmaheshkulkarni.github.io/corrly)                                | [plotly.js](https://github.com/plotly/plotly.js)                                                                                                                                                                                                                       |
-| [pivta](https://github.com/feddelegrand7/pivta)                                   | [webdatarocks.js](https://www.webdatarocks.com/)                                                                                                                                                                                                                       |
-| [jsTreeR](https://github.com/stla/jsTreeR)                                        | [jsTree](https://www.jstree.com/), [jQuery](https://jquery.com/), [jstree-bootstrap-theme](https://github.com/orangehill/jstree-bootstrap-theme), [jsTreeGrid](https://github.com/deitch/jstree-grid)                                                                  |
-| [thorn](https://github.com/stla/thorn)                                            | [PixiJS](https://github.com/pixijs/pixi.js), [Hamster.js](https://github.com/monospaced/hamster.js)                                                                                                                                                                    |
-| [findInFiles](https://github.com/stla/findInFiles)                                | [ansi-to-html](https://github.com/rburns/ansi-to-html)                                                                                                                                                                                                                 |
-| [graph3d](https://github.com/stla/graph3d)                                        | [vis-graph3d](https://github.com/visjs/vis-graph3d)                                                                                                                                                                                                                    |
-| [rAmCharts4](https://github.com/stla/rAmCharts4)                                  | [amCharts4](https://github.com/amcharts/amcharts4/), [regression-js](https://github.com/Tom-Alexander/regression-js/)                                                                                                                                                  |
-| [aceEditor](https://github.com/stla/aceEditor)                                    | [react-ace](https://github.com/securingsincity/react-ace)                                                                                                                                                                                                              |
-| [monaco](https://github.com/stla/monaco)                                          | [Monaco Editor](https://github.com/microsoft/monaco-editor)                                                                                                                                                                                                            |
-| [docsifier](https://docsifier.etiennebacher.com/)                                 | [docsify.js](https://docsify.js.org/#/)                                                                                                                                                                                                                                |
-| [tinyslider](https://tinyslider.etiennebacher.com/)                               | [tiny-slider.js](https://github.com/ganlanyuan/tiny-slider)                                                                                                                                                                                                            |
-| [shinyfullscreen](https://github.com/etiennebacher/shinyfullscreen)               | [screenfull.js](https://github.com/sindresorhus/screenfull.js)                                                                                                                                                                                                         |
-| [prompter](https://github.com/etiennebacher/prompter)                             | [hint.css](https://github.com/chinchang/hint.css)                                                                                                                                                                                                                      |
-| [circletyper](https://github.com/etiennebacher/circletyper)                       | [CircleType.js](https://github.com/peterhry/CircleType)                                                                                                                                                                                                                |
-| [spoiler](https://github.com/etiennebacher/spoiler)                               | [spoiler-alert.js](https://github.com/joshbuddy/spoiler-alert)                                                                                                                                                                                                         |
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">R Packages</th>
+<th style="text-align: left;">JavaScript libraries</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/yonicd/rpdf">rpdf</a></td>
+<td style="text-align: left;"><a href="https://github.com/mozilla/pdf.js">pdf</a>, <a href="https://jquery.com/">jQuery</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/metrumresearchgroup/jsTree">jsTree</a></td>
+<td style="text-align: left;"><a href="https://www.jstree.com/">jsTree</a>, <a href="https://jquery.com/">jQuery</a>, <a href="http://getbootstrap.com/">bootstrap</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/metrumresearchgroup/shinyCanvas">shinyCanvas</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://zachcp.github.io/phylocanvas/">phylocanvas</a></td>
+<td style="text-align: left;"><a href="https://github.com/phylocanvas">phylocanvas</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://zachcp.github.io/msaR/">msaR</a></td>
+<td style="text-align: left;"><a href="https://github.com/wilzbach/msa">msa</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/metrumresearchgroup/d3Tree">d3Tree</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a>, <a href="https://cycle.js.org/">cycle</a>, <a href="https://github.com/Caged/d3-tip">d3-tip</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/metrumresearchgroup/slickR">slickR</a></td>
+<td style="text-align: left;"><a href="https://github.com/kenwheeler/slick">slick</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/htmlwidgets/datamaps">datamaps</a></td>
+<td style="text-align: left;"><a href="http://datamaps.github.io">datamaps</a>, <a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/ramnathv/rChartsCalmap">rChartsCalmap</a></td>
+<td style="text-align: left;"><a href="http://kamisama.github.io/cal-heatmap/">Cal-Heatmap</a>, <a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://rstudio.github.io/leaflet/">leaflet</a></td>
+<td style="text-align: left;"><a href="http://leafletjs.com">leaflet</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://rstudio.github.io/DT/">DT</a></td>
+<td style="text-align: left;"><a href="https://www.datatables.net">DataTables</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://rstudio.github.io/dygraphs/">dygraphs</a></td>
+<td style="text-align: left;"><a href="http://dygraphs.com">dygraphs</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://hrbrmstr.github.io/metricsgraphics/">metricsgraphics</a></td>
+<td style="text-align: left;"><a href="http://metricsgraphicsjs.org">metricsgraphicsjs</a>, <a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://hrbrmstr.github.io/streamgraph/">streamgraph</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://christophergandrud.github.io/networkD3/">networkD3</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/bwlewis/rthreejs">threejs</a></td>
+<td style="text-align: left;"><a href="http://threejs.org">threejs</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://rich-iannone.github.io/DiagrammeR/">DiagrammeR</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a>,viz,<a href="http://knsv.github.io/mermaid/">mermaid</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/jpmarindiaz/sigmaGraph">sigmaGraph</a></td>
+<td style="text-align: left;"><a href="http://sigmajs.org">sigma</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/jpmarindiaz/bubbleCloud">bubbleCloud</a></td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/jpmarindiaz/d3plus">d3plus</a></td>
+<td style="text-align: left;"><a href="http://d3plus.org">d3plus</a>, <a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/jpmarindiaz/isotope">isotope</a></td>
+<td style="text-align: left;"><a href="http://isotope.metafizzy.co">isotope</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/ThomasSiegmund/D3TableFilter">D3TableFilter</a></td>
+<td style="text-align: left;"><a href="http://tablefilter.free.fr">TableFilter</a>, <a href="http://d3js.org">d3</a>, <a href="http://omnipotent.net/jquery.sparkline/">jQuery Sparklines</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/jrowen/rhandsontable/">rhandsontable</a></td>
+<td style="text-align: left;"><a href="http://handsontable.com">handsontable</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/rcdimple">rcdimple</a></td>
+<td style="text-align: left;"><a href="http://dimplejs.org">dimple</a>, <a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/sortableR">sortableR</a></td>
+<td style="text-align: left;"><a href="http://rubaxa.github.io/Sortable/">sortablejs</a>, <a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/parcoords">parcoords</a></td>
+<td style="text-align: left;">parcoords,<a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/listviewer">listviewer</a></td>
+<td style="text-align: left;"><a href="https://github.com/josdejong/jsoneditor">jsoneditor</a>, <a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/svgPanZoom">svgPanZoom</a></td>
+<td style="text-align: left;"><a href="https://github.com/ariutta/svg-pan-zoom">svg-pan-zoom</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/exportwidget">exportwidget</a></td>
+<td style="text-align: left;">exportwidget</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/imageR">imageR</a></td>
+<td style="text-align: left;">imageR</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/yutannihilation/chartist">chartist</a></td>
+<td style="text-align: left;"><a href="http://gionkunz.github.io/chartist-js/index.html">chartist.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/sdwfrost/phylowidget">phylowidget</a></td>
+<td style="text-align: left;"><a href="https://github.com/veg/phylotree.js">phylotree.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://kbroman.org/qtlcharts/">qtlcharts</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a>, <a href="https://github.com/Caged/d3-tip">d3-tip</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/jcizel/highchartR">highchartR</a></td>
+<td style="text-align: left;"><a href="http://www.highcharts.com/products/highcharts">highcharts</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/homeaway/great-circles">greatCircles</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/htmlwidgets/sparkline">sparklines</a></td>
+<td style="text-align: left;"><a href="(http://omnipotent.net/jquery.sparkline)">jquery.sparkline</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/adymimos/rWordCloud">rWordCloud</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/HarlanH/c3r">c3r</a></td>
+<td style="text-align: left;"><a href="http://c3js.org">c3js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/yutannihilation/dcStockR">dcStockR</a></td>
+<td style="text-align: left;"><a href="https://dc-js.github.io/dc.js/">dc.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/jcizel/scatterMatrixD3">scatterMatrixD3</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://hafen.github.io/rbokeh">rbokeh</a></td>
+<td style="text-align: left;"><a href="http://bokeh.pydata.org/en/latest/">bokehjs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/rstudio/d3heatmap">d3heatmap</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/smartinsightsfromdata/rpivotTable">rpivotTable</a></td>
+<td style="text-align: left;"><a href="http://nicolas.kruchten.com/pivottable/examples/">pivottable</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://renkun.me/formattable/">formattable</a></td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://github.com/jcheng5/bubbles">bubbles</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/garthtarr/pairsD3">pairsD3</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/garthtarr/edgebundleR">edgebundleR</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/2/5/week-05-katex-in-r">katexR</a></td>
+<td style="text-align: left;"><a href="https://github.com/Khan/KaTeX">KaTeX</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/3/11/week-10-responsive-toolbars">navr</a></td>
+<td style="text-align: left;"><a href="http://responsive-nav.com/">responsive-nav</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/4/21/week-16-gamer">gamer</a></td>
+<td style="text-align: left;"><a href="https://github.com/Cacodaimon/EntangledClone">EntangledClone</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/5/1/week-17-materializer">materializeR</a></td>
+<td style="text-align: left;"><a href="http://materializecss.com/">materialize</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/5/8/week-18-comicr">comicR</a></td>
+<td style="text-align: left;"><a href="https://github.com/balint42/comic.js">comic.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/5/14/week-19-loryr-slider">loryR</a></td>
+<td style="text-align: left;"><a href="http://meandmax.github.io/lory/">lory.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/6/5/week-22-d3vennr">d3vennR</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a>, <a href="https://github.com/benfred/venn.js">venn.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/6/17/week-24-flowtyper">flowtypeR</a></td>
+<td style="text-align: left;"><a href="http://simplefocus.com/flowtype">flowtype</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/6/29/week-25-sweetalertr">sweetalertR</a></td>
+<td style="text-align: left;"><a href="http://t4t5.github.io/sweetalert">SweetAlert</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/7/2/week-26-sunburstr">sunburstR</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://www.buildingwidgets.com/blog/2015/7/11/week-27-d3hiver">d3hiveR</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://durtal.github.io/calheatmapR/">calheatmapR</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a>, <a href="https://kamisama.github.io/cal-heatmap/">cal-heatmap</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/armish/coffeewheel">coffeewheel</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/hrbrmstr/taucharts">taucharts</a></td>
+<td style="text-align: left;"><a href="http://www.taucharts.com/">taucharts</a>, <a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/keeganhines/vivagRaph">vivagRaph</a></td>
+<td style="text-align: left;"><a href="https://github.com/anvaka/VivaGraphJS">vivagraph js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/jbkunst/rchess">rchess</a></td>
+<td style="text-align: left;"><a href="https://github.com/jhlywa/chess.js">chessjs</a>, <a href="http://chessboardjs.com/">chessboardjs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/jbkunst/d3wordcloud">d3wordcloud</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a>, <a href="https://github.com/jasondavies/d3-cloud">d3-cloud</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://plot.ly/r">plotly</a></td>
+<td style="text-align: left;"><a href="https://github.com/plotly/plotly.js">plotly.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/Tutuchan/morrisjs">morrisjs</a></td>
+<td style="text-align: left;"><a href="http://morrisjs.github.io/morris.js/">morris.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/muschellij2/diffr">diffr</a></td>
+<td style="text-align: left;"><a href="https://github.com/danvk/codediff.js">codeeiff.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://davidgohel.github.io/ggiraph">ggiraph</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://github.com/SymbolixAU/googleway">googleway</a></td>
+<td style="text-align: left;"><a href="https://developers.google.com/maps/documentation/javascript/libraries">Google Maps Javascript API</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://jkunst.com/highcharter">highcharter</a></td>
+<td style="text-align: left;"><a href="http://www.highcharts.com">highcharts</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/environmentalinformatics-marburg/mapview">mapview</a></td>
+<td style="text-align: left;"><a href="https://github.com/robertleeplummerjr/Leaflet.glify">leaflet.glify.js</a>, <a href="https://jquery.com/">jquery</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/cran/qrage">qrage</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/mangothecat/radarchart">radarchart</a></td>
+<td style="text-align: left;"><a href="http://www.chartjs.org/">chart.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://datastorm-open.github.io/introduction_ramcharts/">rAmCharts</a></td>
+<td style="text-align: left;"><a href="https://www.amcharts.com/">amCharts</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://r-forge.r-project.org/projects/rgl/">rgl</a></td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/juba/scatterD3">scatterD3</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/mtennekes/tmap">tmap</a></td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://datastorm-open.github.io/visNetwork/">visNetwork</a></td>
+<td style="text-align: left;"><a href="http://visjs.org/">vis.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/neuhausi/canvasXpress/">canvasXpress</a></td>
+<td style="text-align: left;"><a href="http://www.canvasXpress.org/">canvasXpress</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/mrjoh3/c3">c3</a></td>
+<td style="text-align: left;"><a href="http://c3js.org/">c3.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/mrjoh3/pier">pier</a></td>
+<td style="text-align: left;"><a href="http://d3pie.org/">d3pie.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/daattali/timevis#readme">timevis</a></td>
+<td style="text-align: left;"><a href="http://visjs.org/">vis.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/lchiffon/wordcloud2">wordcloud2</a></td>
+<td style="text-align: left;"><a href="https://github.com/timdream/wordcloud2.js">wordcloud2.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://candela.readthedocs.io">candela</a></td>
+<td style="text-align: left;"><a href="https://candela.readthedocs.io">Candela</a>, <a href="http://www.caleydo.org/tools/lineup/">LineUp</a>, <a href="http://www.caleydo.org/tools/upset/">UpSet</a>, <a href="http://www.cc.gatech.edu/gvu/ii/setvis/">OnSet</a>, <a href="https://vega.github.io/vega/">Vega</a>, <a href="http://geojs.readthedocs.io/">GeoJS</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://AdeelK93.github.io/collapsibleTree/">collapsibleTree</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/abossi/diffRgit">diffRgit</a></td>
+<td style="text-align: left;"><a href="https://diff2html.xyz">diff2html</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/talgalili/heatmaply/">heatmaply</a></td>
+<td style="text-align: left;"><a href="https://github.com/plotly/plotly.js">plotly.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/paulofelipe/D3plusR">D3plusR</a></td>
+<td style="text-align: left;"><a href="http://d3plus.org/">D3plus</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/cmap/morpheus.R">morpheus</a></td>
+<td style="text-align: left;"><a href="https://clue.io/morpheus">morpheus.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/rte-antares-rpackage/leaflet.minicharts">leaflet.minicharts</a></td>
+<td style="text-align: left;"><a href="https://github.com/rte-antares-rpackage/leaflet.minicharts">leaflet.minichart.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/rte-antares-rpackage/manipulateWidget">manipulateWidget</a></td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/lvulliard/BioCircos.R">BioCircos</a></td>
+<td style="text-align: left;"><a href="http://bioinfo.ibp.ac.cn/biocircos/">BioCircos.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/billboarder">billboarder</a></td>
+<td style="text-align: left;"><a href="https://naver.github.io/billboard.js/">billboard</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/lineupjs/lineup_htmlwidget">lineupjs</a></td>
+<td style="text-align: left;"><a href="https://github.com/lineupjs/lineupjs">lineupjs</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/upsetjs/upsetjs_r">upsetjs</a></td>
+<td style="text-align: left;"><a href="https://github.com/upsetjs/upsetjs">upsetjs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/wmurphyrd/shinyaframe">shinyaframe</a></td>
+<td style="text-align: left;"><a href="http://aframe.io">A-Frame</a>, <a href="https://github.com/wmurphyrd/gg-aframe">gg-aframe</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/freezecoder/mutsneedle">mutsneedle</a></td>
+<td style="text-align: left;"><a href="http://biojs.io/d/muts-needle-plot">muts-needle-plot</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/iankloo/sigmaNet">sigmaNet</a></td>
+<td style="text-align: left;"><a href="https://github.com/jacomyal/sigma.js">sigmajs</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://homerhanumat.github.io/bpexploder">bpexploder</a></td>
+<td style="text-align: left;"><a href="https://mcaule.github.io/d3_exploding_boxplot/">d3-exploding-boxplot</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/yapus/imageviewer">imageviewer</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a>, <a href="https://jquery.com/">jQuery</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://echarts4r.john-coene.com/">echarts4r</a></td>
+<td style="text-align: left;"><a href="http://echarts.baidu.com/">ECharts</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="http://raggrid.netlify.com/">RagGrid</a></td>
+<td style="text-align: left;"><a href="https://www.ag-grid.com/">agGrid</a>, <a href="https://jquery.com/">jQuery</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="http://github.com/SymbolixAU/mapdeck">mapdeck</a></td>
+<td style="text-align: left;"><a href="http://deck.gl/#/">Deck.gl</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/chengvt/MovingBubbles">MovingBubbles</a></td>
+<td style="text-align: left;"><a href="https://d3js.org">d3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/daranzolin/compareBars">compareBars</a></td>
+<td style="text-align: left;"><a href="https://d3js.org">d3</a>, <a href="https://github.com/Caged/d3-tip">d3-tip</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/topogram">topogram</a></td>
+<td style="text-align: left;"><a href="https://github.com/vasturiano/cartogram-chart">cartogram-chart</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/daranzolin/d3rain">d3rain</a></td>
+<td style="text-align: left;"><a href="https://d3js.org">d3</a>, <a href="https://github.com/Caged/d3-tip">d3-tip</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/athospd/wavesurfer#readme">wavesurfer</a></td>
+<td style="text-align: left;"><a href="http://wavesurfer-js.org/">wavesurfer.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://erblast.github.io/parcats/">parcats</a></td>
+<td style="text-align: left;"><a href="https://plot.ly/javascript/">plotly.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/apexcharter">apexcharter</a></td>
+<td style="text-align: left;"><a href="https://github.com/apexcharts/apexcharts.js">ApexCharts</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/tuichartr">tuichartr</a></td>
+<td style="text-align: left;"><a href="https://github.com/nhn/tui.chart">tui.chart</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/tuicalendr">tuicalendr</a></td>
+<td style="text-align: left;"><a href="https://github.com/nhn/tui.calendar">tui.calendar</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://grapher.network">grapher</a></td>
+<td style="text-align: left;"><a href="https://github.com/anvaka/ngraph">ngraph</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://g2r.dev/">g2r</a></td>
+<td style="text-align: left;"><a href="https://github.com/antvis/g2">g2</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://globe4r.john-coene.com/">globe4r</a></td>
+<td style="text-align: left;"><a href="https://github.com/vasturiano/globe.gl">globe.gl</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/montilab/vennr">vennr</a></td>
+<td style="text-align: left;"><a href="https://d3js.org">d3</a>, <a href="https://github.com/benfred/venn.js/">venn.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://docs.ropensci.org/iheatmapr">iheatmapr</a></td>
+<td style="text-align: left;"><a href="https://plot.ly/">plotly</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://kmaheshkulkarni.github.io/corrly">corrly</a></td>
+<td style="text-align: left;"><a href="https://github.com/plotly/plotly.js">plotly.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/pivta">pivta</a></td>
+<td style="text-align: left;"><a href="https://www.webdatarocks.com/">webdatarocks.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/stla/jsTreeR">jsTreeR</a></td>
+<td style="text-align: left;"><a href="https://www.jstree.com/">jsTree</a>, <a href="https://jquery.com/">jQuery</a>, <a href="https://github.com/orangehill/jstree-bootstrap-theme">jstree-bootstrap-theme</a>, <a href="https://github.com/deitch/jstree-grid">jsTreeGrid</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/stla/thorn">thorn</a></td>
+<td style="text-align: left;"><a href="https://github.com/pixijs/pixi.js">PixiJS</a>, <a href="https://github.com/monospaced/hamster.js">Hamster.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/stla/findInFiles">findInFiles</a></td>
+<td style="text-align: left;"><a href="https://github.com/rburns/ansi-to-html">ansi-to-html</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/stla/graph3d">graph3d</a></td>
+<td style="text-align: left;"><a href="https://github.com/visjs/vis-graph3d">vis-graph3d</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/stla/rAmCharts4">rAmCharts4</a></td>
+<td style="text-align: left;"><a href="https://github.com/amcharts/amcharts4/">amCharts4</a>, <a href="https://github.com/Tom-Alexander/regression-js/">regression-js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/stla/aceEditor">aceEditor</a></td>
+<td style="text-align: left;"><a href="https://github.com/securingsincity/react-ace">react-ace</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/stla/monaco">monaco</a></td>
+<td style="text-align: left;"><a href="https://github.com/microsoft/monaco-editor">Monaco Editor</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://docsifier.etiennebacher.com/">docsifier</a></td>
+<td style="text-align: left;"><a href="https://docsify.js.org/#/">docsify.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://tinyslider.etiennebacher.com/">tinyslider</a></td>
+<td style="text-align: left;"><a href="https://github.com/ganlanyuan/tiny-slider">tiny-slider.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/etiennebacher/shinyfullscreen">shinyfullscreen</a></td>
+<td style="text-align: left;"><a href="https://github.com/sindresorhus/screenfull.js">screenfull.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/etiennebacher/prompter">prompter</a></td>
+<td style="text-align: left;"><a href="https://github.com/chinchang/hint.css">hint.css</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/etiennebacher/circletyper">circletyper</a></td>
+<td style="text-align: left;"><a href="https://github.com/peterhry/CircleType">CircleType.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/etiennebacher/spoiler">spoiler</a></td>
+<td style="text-align: left;"><a href="https://github.com/joshbuddy/spoiler-alert">spoiler-alert.js</a></td>
+</tr>
+</tbody>
+</table>
