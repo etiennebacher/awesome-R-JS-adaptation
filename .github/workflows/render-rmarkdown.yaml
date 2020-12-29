@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 2 # This is important to set for `git diff-tree` to work below
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
-      - name: Install rmarkdown, remotes, and the local package
+      - name: Install rmarkdown
         run: |
           remotes::install_cran("rmarkdown")
         shell: Rscript {0}
