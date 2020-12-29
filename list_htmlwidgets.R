@@ -14,7 +14,8 @@ js_name_and_repo <- lapply(x$widgets, function(y) {
     y$jslibs <- NA
   }
   y$jslibs %>%
-    gsub("\\),\\[", "\\), \\[", .)
+    gsub("\\),", "\\), ", .) %>%
+    gsub(",\\[", ", \\[", .)
 })
 
 
