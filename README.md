@@ -1,4 +1,20 @@
 
+## Purpose of this repo
+
+The goal of this repo is to provide a list of the JavaScript libraries
+that have been adapted in R, so that R developers don’t lose too much
+time trying to determine if a particular JavaScript library has already
+been ported in R.
+
+## How to contribute
+
+This repo is meant to be a collaborative effort (I can’t list all
+adaptations by myself). The packages that are displayed in the
+[htmlwidgets gallery](https://gallery.htmlwidgets.org/) are
+automatically added to this list.
+
+## List
+
 | R Packages                                                                        | JavaScript libraries                                                                                                                                                                                                                                                   |
 | :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [rpdf](https://github.com/yonicd/rpdf)                                            | [pdf](https://github.com/mozilla/pdf.js), [jQuery](https://jquery.com/)                                                                                                                                                                                                |
@@ -128,3 +144,4 @@
 | [aceEditor](https://github.com/stla/aceEditor)                                    | [react-ace](https://github.com/securingsincity/react-ace)                                                                                                                                                                                                              |
 | [monaco](https://github.com/stla/monaco)                                          | [Monaco Editor](https://github.com/microsoft/monaco-editor)                                                                                                                                                                                                            |
 | [docsifier](https://docsifier.etiennebacher.com/)                                 | [docsify.js](https://docsify.js.org/#/)                                                                                                                                                                                                                                |
+| [tinyslider](https://tinyslider.etiennebacher.com/)                               | [tiny-slider.js](https://github.com/ganlanyuan/tiny-slider)                                                                                                                                                                                                            |
