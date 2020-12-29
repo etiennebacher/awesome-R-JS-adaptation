@@ -558,5 +558,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/etiennebacher/spoiler">spoiler</a></td>
 <td style="text-align: left;"><a href="https://github.com/joshbuddy/spoiler-alert">spoiler-alert.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/typed/">typed</a></td>
+<td style="text-align: left;"><a href="https://github.com/mattboldt/typed.js/">typed.js</a></td>
+</tr>
 </tbody>
 </table>
