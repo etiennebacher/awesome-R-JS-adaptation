@@ -96,7 +96,7 @@ List
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="http://rich-iannone.github.io/DiagrammeR/">DiagrammeR</a></td>
-<td style="text-align: left;"><a href="http://d3js.org">d3</a>,viz,<a href="http://knsv.github.io/mermaid/">mermaid</a></td>
+<td style="text-align: left;"><a href="http://d3js.org">d3</a>, viz, <a href="http://knsv.github.io/mermaid/">mermaid</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/jpmarindiaz/sigmaGraph">sigmaGraph</a></td>
@@ -132,7 +132,7 @@ List
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/timelyportfolio/parcoords">parcoords</a></td>
-<td style="text-align: left;">parcoords,<a href="http://d3js.org">d3</a></td>
+<td style="text-align: left;">parcoords, <a href="http://d3js.org">d3</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/timelyportfolio/listviewer">listviewer</a></td>
