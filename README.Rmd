@@ -1,0 +1,14 @@
+---
+output: github_document
+---
+
+```{r echo = FALSE}
+source("list_htmlwidgets.R")
+```
+
+```{r echo = FALSE}
+library(knitr)
+
+kable(output, col.names = c("R Packages", "JavaScript libraries"))
+```
+
