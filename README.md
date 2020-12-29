@@ -541,5 +541,17 @@ List
 <td style="text-align: left;"><a href="https://github.com/etiennebacher/shinyfullscreen">shinyfullscreen</a></td>
 <td style="text-align: left;"><a href="https://github.com/sindresorhus/screenfull.js">screenfull.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/etiennebacher/prompter">prompter</a></td>
+<td style="text-align: left;"><a href="https://github.com/chinchang/hint.css">hint.css</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/etiennebacher/circletyper">circletyper</a></td>
+<td style="text-align: left;"><a href="https://github.com/peterhry/CircleType">CircleType.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/etiennebacher/spoiler">spoiler</a></td>
+<td style="text-align: left;"><a href="https://github.com/joshbuddy/spoiler-alert">spoiler-alert.js</a></td>
+</tr>
 </tbody>
 </table>
