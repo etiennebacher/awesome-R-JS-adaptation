@@ -578,5 +578,41 @@ List
 <td style="text-align: left;"><a href="https://github.com/JohnCoene/tippy/">tippy</a></td>
 <td style="text-align: left;"><a href="https://atomiks.github.io/tippyjs">tippy.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/GomoGomonoMi">GomoGomonoMi</a></td>
+<td style="text-align: left;"><a href="https://animate.style/">Animate.css</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/scrollrevealR">scrollrevealR</a></td>
+<td style="text-align: left;"><a href="https://scrollrevealjs.org/">scrollrevealjs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/mailtoR">mailtoR</a></td>
+<td style="text-align: left;"><a href="https://mailtoui.com/#menu">MailtoUI</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/Rnightly">Rnightly</a></td>
+<td style="text-align: left;"><a href="https://github.com/Fcmam5/nightly.js">nightly.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/bubblyr">bubblyr</a></td>
+<td style="text-align: left;"><a href="https://github.com/tipsy/bubbly-bg">bubbly-bg</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/fabricerin">fabricerin</a></td>
+<td style="text-align: left;"><a href="http://fabricjs.com/">fabricjs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/rintimg">rintimg</a></td>
+<td style="text-align: left;"><a href="https://github.com/tholman/intense-images">intense-images</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/creature">creature</a></td>
+<td style="text-align: left;"><a href="https://soulwire.github.io/sketch.js/">sketch.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/feddelegrand7/flipdownr">flipdownr</a></td>
+<td style="text-align: left;"><a href="https://pbutcher.uk/flipdown/">flipdown</a></td>
+</tr>
 </tbody>
 </table>
