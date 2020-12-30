@@ -562,5 +562,21 @@ List
 <td style="text-align: left;"><a href="https://github.com/JohnCoene/typed/">typed</a></td>
 <td style="text-align: left;"><a href="https://github.com/mattboldt/typed.js/">typed.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://cicerone.john-coene.com/">cicerone</a></td>
+<td style="text-align: left;"><a href="https://github.com/kamranahmedse/driver.js">driver.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/ambiorix">ambiorix</a></td>
+<td style="text-align: left;"><a href="https://github.com/expressjs/express">express.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/pushbar">pushbar</a></td>
+<td style="text-align: left;"><a href="https://oncebot.github.io/pushbar.js/">pushbar.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/tippy/">tippy</a></td>
+<td style="text-align: left;"><a href="https://atomiks.github.io/tippyjs">tippy.js</a></td>
+</tr>
 </tbody>
 </table>
