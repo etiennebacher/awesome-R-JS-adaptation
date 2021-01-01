@@ -622,5 +622,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/JohnCoene/peity">peity</a></td>
 <td style="text-align: left;"><a href="https://benpickles.github.io/peity/">peity</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/daattali/shinyalert">shinyalert</a></td>
+<td style="text-align: left;"><a href="https://github.com/t4t5/sweetalert">sweetalert</a></td>
+</tr>
 </tbody>
 </table>
