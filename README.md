@@ -618,5 +618,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/yonicd/carbonate">carbonate</a></td>
 <td style="text-align: left;"><a href="https://carbon.now.sh/about">carbon.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/peity">peity</a></td>
+<td style="text-align: left;"><a href="https://benpickles.github.io/peity/">peity</a></td>
+</tr>
 </tbody>
 </table>
