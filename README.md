@@ -626,5 +626,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/daattali/shinyalert">shinyalert</a></td>
 <td style="text-align: left;"><a href="https://github.com/t4t5/sweetalert">sweetalert</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/carlganz/rintrojs">rintrojs</a></td>
+<td style="text-align: left;"><a href="http://introjs.com/">intro.js</a></td>
+</tr>
 </tbody>
 </table>
