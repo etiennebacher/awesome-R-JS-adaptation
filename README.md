@@ -630,5 +630,25 @@ List
 <td style="text-align: left;"><a href="https://github.com/carlganz/rintrojs">rintrojs</a></td>
 <td style="text-align: left;"><a href="http://introjs.com/">intro.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/lgnbhl/aos">aos</a></td>
+<td style="text-align: left;"><a href="http://michalsnik.github.io/aos/">aos</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/lgnbhl/scroller">scroller</a></td>
+<td style="text-align: left;"><a href="http://arbitrary-anchor.briangonzalez.org/">arbitrary-anchor.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/lgnbhl/aniview">aniview</a></td>
+<td style="text-align: left;"><a href="https://daneden.github.io/animate.css/">animate.Css</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/lgnbhl/gotop">gotop</a></td>
+<td style="text-align: left;"><a href="https://scottdorman.blog/jquery-gotop/">jquery-gotop</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/lgnbhl/textyle">textyle</a></td>
+<td style="text-align: left;"><a href="https://github.com/mycreatesite/Textyle.js/">Textyle.js</a></td>
+</tr>
 </tbody>
 </table>
