@@ -654,5 +654,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/JohnCoene/countup">countup</a></td>
 <td style="text-align: left;"><a href="https://github.com/inorganik/CountUp.js">CountUp.js</a> <a href="https://github.hubspot.com/odometer/docs/welcome/">Odometer</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/juba/shinyglide">shinyglide</a></td>
+<td style="text-align: left;"><a href="https://glidejs.com/">glide.js</a></td>
+</tr>
 </tbody>
 </table>
