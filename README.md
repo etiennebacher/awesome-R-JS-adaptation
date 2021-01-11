@@ -658,5 +658,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/juba/shinyglide">shinyglide</a></td>
 <td style="text-align: left;"><a href="https://glidejs.com/">glide.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/waiter">waiter</a></td>
+<td style="text-align: left;"><a href="https://usablica.github.io/progress.js/">Progress.js</a> <a href="https://github.com/tobiasahlin/SpinKit">Spinkit.css</a> <a href="https://github.com/Pathgather/please-wait">PleaseWait.js</a> <a href="https://loading.io/progress/">LoadingBar.js</a> <a href="https://franverona.com/loadgo/">LoadGo</a></td>
+</tr>
 </tbody>
 </table>
