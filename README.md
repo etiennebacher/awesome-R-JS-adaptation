@@ -666,5 +666,17 @@ List
 <td style="text-align: left;"><a href="https://github.com/RinteRface/swipeR">swipeR</a></td>
 <td style="text-align: left;"><a href="https://swiperjs.com/">swiperjs</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/r4fun/hover">hover</a></td>
+<td style="text-align: left;"><a href="https://github.com/IanLunn/Hover">hover.css</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/r4fun/hierplane">hierplane</a></td>
+<td style="text-align: left;"><a href="https://github.com/allenai/hierplane">hierplane.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/r4fun/keys">keys</a></td>
+<td style="text-align: left;"><a href="https://github.com/ccampbell/mousetrap">mousetrap.js</a></td>
+</tr>
 </tbody>
 </table>
