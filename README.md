@@ -678,5 +678,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/r4fun/keys">keys</a></td>
 <td style="text-align: left;"><a href="https://github.com/ccampbell/mousetrap">mousetrap.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/parcel">parcel</a></td>
+<td style="text-align: left;"><a href="https://parceljs.org/">parcel.js</a></td>
+</tr>
 </tbody>
 </table>
