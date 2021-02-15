@@ -1,10 +1,10 @@
 Purpose of this repo
 --------------------
 
-The goal of this repo is to provide a list of the JavaScript libraries
-that have been adapted in R, so that R developers don’t lose too much
-time trying to determine if a particular JavaScript library has already
-been ported in R.
+The goal of this repo is to provide a list of the JavaScript and CSS
+libraries that have been adapted in R, so that R developers don’t lose
+too much time trying to determine if a particular JavaScript or CSS
+library has already been ported in R.
 
 How to contribute
 -----------------
