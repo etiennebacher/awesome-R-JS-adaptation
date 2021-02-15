@@ -1,9 +1,9 @@
 Purpose of this repo
 --------------------
 
-The goal of this repo is to provide a list of the JavaScript and CSS libraries
+The goal of this repo is to provide a list of the JavaScript libraries
 that have been adapted in R, so that R developers don’t lose too much
-time trying to determine if a particular JavaScript or CSS library has already
+time trying to determine if a particular JavaScript library has already
 been ported in R.
 
 How to contribute
@@ -681,6 +681,10 @@ List
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/JohnCoene/parcel">parcel</a></td>
 <td style="text-align: left;"><a href="https://parceljs.org/">parcel.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/tyluRp/vov">vov</a></td>
+<td style="text-align: left;"><a href="https://github.com/vaibhav111tandon/vov.css">vov.css</a></td>
 </tr>
 </tbody>
 </table>
