@@ -690,5 +690,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/freestatman/ideogRam">ideogRam</a></td>
 <td style="text-align: left;"><a href="https://github.com/eweitz/ideogram">ideogram</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/gadenbuie/tidyjs-r">tidyjs-r</a></td>
+<td style="text-align: left;"><a href="https://github.com/pbeshai/tidy">tidy.js</a></td>
+</tr>
 </tbody>
 </table>
