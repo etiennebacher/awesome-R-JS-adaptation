@@ -694,5 +694,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/gadenbuie/tidyjs-r">tidyjs-r</a></td>
 <td style="text-align: left;"><a href="https://github.com/pbeshai/tidy">tidy.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/devOpifex/g2r">g2r</a></td>
+<td style="text-align: left;"><a href="https://g2.antv.vision/">G2.js</a></td>
+</tr>
 </tbody>
 </table>
