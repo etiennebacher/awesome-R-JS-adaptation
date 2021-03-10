@@ -698,5 +698,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/devOpifex/g2r">g2r</a></td>
 <td style="text-align: left;"><a href="https://g2.antv.vision/">G2.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/anthonynorth/rdeck">rdeck</a></td>
+<td style="text-align: left;"><a href="https://github.com/visgl/deck.gl">deck.gl</a></td>
+</tr>
 </tbody>
 </table>
