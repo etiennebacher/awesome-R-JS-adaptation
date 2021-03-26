@@ -710,5 +710,13 @@ List
 <td style="text-align: left;"><a href="https://github.com/JohnCoene/baffle">baffle</a></td>
 <td style="text-align: left;"><a href="https://github.com/camwiegert/baffle">baffle.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/headspace">headspace</a></td>
+<td style="text-align: left;"><a href="http://wicky.nillia.ms/headroom.js/">headroom.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/egg">egg</a></td>
+<td style="text-align: left;"><a href="http://thatmikeflynn.com/egg.js/">egg.js</a></td>
+</tr>
 </tbody>
 </table>
