@@ -702,5 +702,13 @@ List
 <td style="text-align: left;"><a href="https://github.com/anthonynorth/rdeck">rdeck</a></td>
 <td style="text-align: left;"><a href="https://github.com/visgl/deck.gl">deck.gl</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/trianglify">trianglify</a></td>
+<td style="text-align: left;"><a href="http://qrohlf.com/trianglify/">trianglify.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/baffle">baffle</a></td>
+<td style="text-align: left;"><a href="https://github.com/camwiegert/baffle">baffle.js</a></td>
+</tr>
 </tbody>
 </table>
