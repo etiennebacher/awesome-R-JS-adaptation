@@ -722,5 +722,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/JohnCoene/marker">marker</a></td>
 <td style="text-align: left;"><a href="https://markjs.io/">markjs</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/trevorld/bracer">bracer</a></td>
+<td style="text-align: left;"><a href="https://github.com/micromatch/braces">braces</a></td>
+</tr>
 </tbody>
 </table>
