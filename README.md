@@ -726,5 +726,13 @@ List
 <td style="text-align: left;"><a href="https://github.com/trevorld/bracer">bracer</a></td>
 <td style="text-align: left;"><a href="https://github.com/micromatch/braces">braces</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/vegawidget/vegawidget">vegawidget</a></td>
+<td style="text-align: left;"><a href="https://github.com/vega/vega-lite">Vega-Lite</a>[<a href="https://github.com/vega/vega" class="uri">https://github.com/vega/vega</a>]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/vegawidget/vegawidget">virgo</a></td>
+<td style="text-align: left;"><a href="https://github.com/vega/vega-lite">Vega-Lite</a></td>
+</tr>
 </tbody>
 </table>
