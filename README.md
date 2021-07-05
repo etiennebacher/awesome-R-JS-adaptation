@@ -734,5 +734,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/vegawidget/virgo">virgo</a></td>
 <td style="text-align: left;"><a href="https://github.com/vega/vega-lite">Vega-Lite</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/unistbig/shinyCyJS">shinyCyJS</a></td>
+<td style="text-align: left;"><a href="https://js.cytoscape.org/">cytoscape.js</a></td>
+</tr>
 </tbody>
 </table>
