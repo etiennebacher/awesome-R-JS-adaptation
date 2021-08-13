@@ -750,5 +750,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/dreamRs/bar">bar</a></td>
 <td style="text-align: left;"><a href="https://github.com/vasturiano/proportions-chart">proportions-chart</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/toastui">toastui</a></td>
+<td style="text-align: left;"><a href="https://ui.toast.com/">TOAST UI</a></td>
+</tr>
 </tbody>
 </table>
