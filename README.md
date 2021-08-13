@@ -746,5 +746,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/timelyportfolio/dataui">dataui</a></td>
 <td style="text-align: left;"><a href="https://williaster.github.io/data-ui/?selectedKind=xy-chart&amp;selectedStory=BarSeries%20--%20no%20axes&amp;full=0&amp;addons=0&amp;stories=1&amp;panelRight=0">data-ui</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/bar">bar</a></td>
+<td style="text-align: left;"><a href="https://github.com/vasturiano/proportions-chart">proportions-chart</a></td>
+</tr>
 </tbody>
 </table>
