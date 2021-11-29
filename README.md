@@ -754,5 +754,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/dreamRs/toastui">toastui</a></td>
 <td style="text-align: left;"><a href="https://ui.toast.com/">TOAST UI</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/d3r">d3r</a></td>
+<td style="text-align: left;"><a href="http://d3js.org/">d3js</a></td>
+</tr>
 </tbody>
 </table>
