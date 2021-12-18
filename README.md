@@ -766,5 +766,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/RinteRface/swipeR">swipeR</a></td>
 <td style="text-align: left;"><a href="http://idangero.us/swiper/">Swiper.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/Appsilon/shiny.react">shiny.react</a></td>
+<td style="text-align: left;"><a href="https://reactjs.org/">react.js</a></td>
+</tr>
 </tbody>
 </table>
