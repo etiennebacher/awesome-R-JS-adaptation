@@ -758,5 +758,13 @@ List
 <td style="text-align: left;"><a href="https://github.com/timelyportfolio/d3r">d3r</a></td>
 <td style="text-align: left;"><a href="http://d3js.org/">d3js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/RinteRface/fullPage">fullPage</a></td>
+<td style="text-align: left;"><a href="https://github.com/alvarotrigo/fullPage.js/">fullPage.js</a>, <a href="https://github.com/alvarotrigo/pagePiling.js/">pagePiling.js</a>, <a href="https://github.com/alvarotrigo/multiscroll.js">multiScroll.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/RinteRface/swipeR">swipeR</a></td>
+<td style="text-align: left;"><a href="http://idangero.us/swiper/">Swiper.js</a></td>
+</tr>
 </tbody>
 </table>
