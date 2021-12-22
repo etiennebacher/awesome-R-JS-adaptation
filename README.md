@@ -758,5 +758,41 @@ List
 <td style="text-align: left;"><a href="https://github.com/timelyportfolio/d3r">d3r</a></td>
 <td style="text-align: left;"><a href="http://d3js.org/">d3js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/RinteRface/fullPage">fullPage</a></td>
+<td style="text-align: left;"><a href="https://github.com/alvarotrigo/fullPage.js/">fullPage.js</a>, <a href="https://github.com/alvarotrigo/pagePiling.js/">pagePiling.js</a>, <a href="https://github.com/alvarotrigo/multiscroll.js">multiScroll.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/react-r/reactR">reactR</a></td>
+<td style="text-align: left;"><a href="https://reactjs.org/">react.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/Appsilon/shiny.react">shiny.react</a></td>
+<td style="text-align: left;"><a href="https://reactjs.org/">react.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/reactrend">react-trend</a></td>
+<td style="text-align: left;"><a href="https://github.com/unsplash/react-trend">react-trend.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/rstudio/sortable">sortable</a></td>
+<td style="text-align: left;"><a href="https://sortablejs.github.io/Sortable/">sortable.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/vue-r/vueR">vueR</a></td>
+<td style="text-align: left;"><a href="https://vuejs.org/">vue.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/datalorax/slidex">slidex</a></td>
+<td style="text-align: left;"><a href="https://remarkjs.com/#1">remark.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/sigmajs">sigmajs</a></td>
+<td style="text-align: left;"><a href="https://www.sigmajs.org/">sigma.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/sbihorel/rclipboard">rclipboard</a></td>
+<td style="text-align: left;"><a href="https://clipboardjs.com/">clipboard.js</a></td>
+</tr>
 </tbody>
 </table>
