@@ -775,16 +775,8 @@ List
 <td style="text-align: left;"><a href="https://github.com/unsplash/react-trend">react-trend.js</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://github.com/jbkunst/highcharter/">highcharter</a></td>
-<td style="text-align: left;"><a href="https://www.highcharts.com/">highcharts.js</a></td>
-</tr>
-<tr class="even">
 <td style="text-align: left;"><a href="https://github.com/rstudio/sortable">sortable</a></td>
 <td style="text-align: left;"><a href="https://sortablejs.github.io/Sortable/">sortable.js</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="https://github.com/dreamRs/billboarder">billboarder</a></td>
-<td style="text-align: left;"><a href="https://naver.github.io/billboard.js/">billboard.js</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/vue-r/vueR">vueR</a></td>
@@ -795,14 +787,10 @@ List
 <td style="text-align: left;"><a href="https://remarkjs.com/#1">remark.js</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://github.com/dreamRs/apexcharter">apexcharter</a></td>
-<td style="text-align: left;"><a href="https://github.com/apexcharts/apexcharts.js">apexcharts.js</a></td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/JohnCoene/sigmajs">sigmajs</a></td>
 <td style="text-align: left;"><a href="https://www.sigmajs.org/">sigma.js</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/sbihorel/rclipboard">rclipboard</a></td>
 <td style="text-align: left;"><a href="https://clipboardjs.com/">clipboard.js</a></td>
 </tr>
