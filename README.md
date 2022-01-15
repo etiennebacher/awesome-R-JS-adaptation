@@ -798,5 +798,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/dreamRs/shinyvs">shinyvs</a></td>
 <td style="text-align: left;"><a href="https://github.com/sa-si-dev/virtual-select">virtual-select</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/crazycapivara/openlayers">openlayers</a></td>
+<td style="text-align: left;"><a href="https://openlayers.org/">openlayers.js</a></td>
+</tr>
 </tbody>
 </table>
