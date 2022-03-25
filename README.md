@@ -806,5 +806,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/xvrdm/ricv">ricv</a></td>
 <td style="text-align: left;"><a href="https://github.com/kylewetton/image-compare-viewer/">image-compare-viewer</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/xvrdm/ggrough">ggrough</a></td>
+<td style="text-align: left;"><a href="https://roughjs.com/">rough.js</a></td>
+</tr>
 </tbody>
 </table>
