@@ -539,7 +539,7 @@ List
 <td style="text-align: left;"><a href="https://github.com/microsoft/monaco-editor">Monaco Editor</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://docsifier.etiennebacher.com/">docsifier</a></td>
+<td style="text-align: left;"><a href="https://altdoc.etiennebacher.com/">altdoc</a></td>
 <td style="text-align: left;"><a href="https://docsify.js.org/#/">docsify.js</a></td>
 </tr>
 <tr class="odd">
@@ -801,6 +801,10 @@ List
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/crazycapivara/openlayers">openlayers</a></td>
 <td style="text-align: left;"><a href="https://openlayers.org/">openlayers.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/xvrdm/ricv">ricv</a></td>
+<td style="text-align: left;"><a href="https://github.com/kylewetton/image-compare-viewer/">image-compare-viewer</a></td>
 </tr>
 </tbody>
 </table>
