@@ -21,6 +21,6 @@ source("list_htmlwidgets.R")
 ```{r echo = FALSE}
 library(knitr)
 
-kable(output, col.names = c("R Packages", "JavaScript libraries"))
+kable(output, col.names = c("R Packages", "JavaScript or CSS libraries"))
 ```
 
