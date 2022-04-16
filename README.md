@@ -26,7 +26,7 @@ List
 <thead>
 <tr class="header">
 <th style="text-align: left;">R Packages</th>
-<th style="text-align: left;">JavaScript libraries</th>
+<th style="text-align: left;">JavaScript or CSS libraries</th>
 </tr>
 </thead>
 <tbody>
