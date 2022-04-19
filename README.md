@@ -804,7 +804,7 @@ List
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/xvrdm/ricv">ricv</a></td>
-<td style="text-align: left;"><a href="https://github.com/kylewetton/image-compare-viewer/">image-compare-viewer</a></td>
+<td style="text-align: left;"><a href="https://github.com/kylewetton/image-compare-viewer/">image-co mpare-viewer</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/xvrdm/ggrough">ggrough</a></td>
@@ -845,6 +845,26 @@ List
 <tr class="even">
 <td style="text-align: left;"><a href="https://github.com/merlinoa/rfrappe">rfrappe</a></td>
 <td style="text-align: left;"><a href="https://github.com/frappe/charts">Frappe-Charts</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/JohnCoene/textillate">textillate</a></td>
+<td style="text-align: left;"><a href="http://textillate.js.org/">textillate.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/datastorm-open/suncalc">suncalc</a></td>
+<td style="text-align: left;"><a href="https://github.com/mourner/suncalc">suncalc.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/datastorm-open/vis3D">vis3D</a></td>
+<td style="text-align: left;"><a href="https://visjs.org/">vis.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/carlganz/shinyCleave">shinyCleave</a></td>
+<td style="text-align: left;"><a href="https://github.com/nosir/cleave.js">cleave.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/ropensci/jsonld">jsonld</a></td>
+<td style="text-align: left;"><a href="https://github.com/digitalbazaar/jsonld.js">jsonld.js</a></td>
 </tr>
 </tbody>
 </table>
