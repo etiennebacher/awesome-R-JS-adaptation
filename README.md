@@ -810,5 +810,41 @@ List
 <td style="text-align: left;"><a href="https://github.com/xvrdm/ggrough">ggrough</a></td>
 <td style="text-align: left;"><a href="https://roughjs.com/">rough.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/d3r">d3r</a></td>
+<td style="text-align: left;"><a href="https://d3js.org/">d3.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/kcf-jackson/jsReact">jsReact</a></td>
+<td style="text-align: left;"><a href="https://reactjs.org/">react</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/obrl-soil/h3jsr">h3jsr</a></td>
+<td style="text-align: left;"><a href="https://github.com/uber/h3">h3</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/particlesjs">particlesjs</a></td>
+<td style="text-align: left;"><a href="https://github.com/VincentGarreau/particles.js/">particles.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/Tutuchan/chartjs">chartjs</a></td>
+<td style="text-align: left;"><a href="http://www.chartjs.org/">chart.js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/4QuantOSS/shiny-impress.js">shiny-impress.js</a></td>
+<td style="text-align: left;"><a href="http://jmpressjs.github.io/jmpress.js/#/home">impress.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/crazycapivara/mapboxer">mapboxer</a></td>
+<td style="text-align: left;"><a href="https://docs.mapbox.com/mapbox-gl-js/api/">mapbox-gl-js</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/timelyportfolio/eventdropR">eventdrop</a></td>
+<td style="text-align: left;"><a href="https://github.com/marmelab/EventDrops">EventDrops</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/merlinoa/rfrappe">rfrappe</a></td>
+<td style="text-align: left;"><a href="https://github.com/frappe/charts">Frappe-Charts</a></td>
+</tr>
 </tbody>
 </table>
