@@ -866,5 +866,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/ropensci/jsonld">jsonld</a></td>
 <td style="text-align: left;"><a href="https://github.com/digitalbazaar/jsonld.js">jsonld.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/ThinkR-open/shanban">shanban</a></td>
+<td style="text-align: left;"><a href="https://github.com/riktar/jkanban">jkanban</a></td>
+</tr>
 </tbody>
 </table>
