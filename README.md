@@ -870,5 +870,9 @@ List
 <td style="text-align: left;"><a href="https://github.com/ThinkR-open/shanban">shanban</a></td>
 <td style="text-align: left;"><a href="https://github.com/riktar/jkanban">jkanban</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/jonmcalder/planetary">planetary</a></td>
+<td style="text-align: left;"><a href="http://planetaryjs.com/">planetary.js</a></td>
+</tr>
 </tbody>
 </table>
