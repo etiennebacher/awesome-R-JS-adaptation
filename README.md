@@ -875,5 +875,9 @@ your PR is accepted (it will take a few minutes to update the README).
 <td style="text-align: left;"><a href="https://github.com/etiennebacher/conductor/">conductor</a></td>
 <td style="text-align: left;"><a href="https://github.com/shipshapecode/shepherd">shepherd.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/dreamRs/shinywb">shinywb</a></td>
+<td style="text-align: left;"><a href="https://nextapps-de.github.io/winbox/">winbox.js</a></td>
+</tr>
 </tbody>
 </table>
