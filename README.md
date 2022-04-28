@@ -1,13 +1,11 @@
-Purpose of this repo
---------------------
+## Purpose of this repo
 
 The goal of this repo is to provide a list of the JavaScript and CSS
 libraries that have been adapted in R, so that R developers don’t lose
 too much time trying to determine if a particular JavaScript or CSS
 library has already been ported in R.
 
-How to contribute
------------------
+## How to contribute
 
 This repo is meant to be a collaborative effort (I can’t list all
 adaptations by myself). The packages that are displayed in the
@@ -19,8 +17,7 @@ libraries it uses in `other_packages.csv`.** No need to render the R
 Markdown file, this will be done automatically via GitHub actions once
 your PR is accepted (it will take a few minutes to update the README).
 
-List
-----
+## List
 
 <table>
 <thead>
@@ -873,6 +870,10 @@ List
 <tr class="odd">
 <td style="text-align: left;"><a href="https://github.com/jonmcalder/planetary">planetary</a></td>
 <td style="text-align: left;"><a href="http://planetaryjs.com/">planetary.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/etiennebacher/conductor/">conductor</a></td>
+<td style="text-align: left;"><a href="https://github.com/shipshapecode/shepherd">shepherd.js</a></td>
 </tr>
 </tbody>
 </table>
