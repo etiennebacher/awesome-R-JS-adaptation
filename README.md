@@ -883,5 +883,9 @@ your PR is accepted (it will take a few minutes to update the README).
 <td style="text-align: left;"><a href="https://github.com/swsoyee/pagemapR">pagemapR</a></td>
 <td style="text-align: left;"><a href="https://larsjung.de/pagemap/">pagemap</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/devOpifex/windy">windy</a></td>
+<td style="text-align: left;"><a href="https://tailwindcss.com/">tailwind.css</a></td>
+</tr>
 </tbody>
 </table>
