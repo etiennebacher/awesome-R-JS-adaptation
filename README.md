@@ -887,5 +887,9 @@ your PR is accepted (it will take a few minutes to update the README).
 <td style="text-align: left;"><a href="https://github.com/devOpifex/windy">windy</a></td>
 <td style="text-align: left;"><a href="https://tailwindcss.com/">tailwind.css</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/RinteRface/shinyHeatmap">shinyHeatmap</a></td>
+<td style="text-align: left;"><a href="https://www.patrick-wied.at/static/heatmapjs/">heatmap.js</a></td>
+</tr>
 </tbody>
 </table>
