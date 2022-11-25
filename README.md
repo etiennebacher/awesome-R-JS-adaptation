@@ -1344,5 +1344,11 @@ href="https://github.com/ashbaldry/video">video</a></td>
 <td style="text-align: left;"><a
 href="https://github.com/videojs/video.js">video.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://github.com/JohnCoene/charter">charter</a></td>
+<td style="text-align: left;"><a
+href="https://github.com/chartjs/Chart.js">chart.js</a></td>
+</tr>
 </tbody>
 </table>
