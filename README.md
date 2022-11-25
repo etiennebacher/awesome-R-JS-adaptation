@@ -1332,5 +1332,17 @@ href="https://github.com/RinteRface/shinyHeatmap">shinyHeatmap</a></td>
 <td style="text-align: left;"><a
 href="https://www.patrick-wied.at/static/heatmapjs/">heatmap.js</a></td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;"><a
+href="https://github.com/ashbaldry/howler">howler</a></td>
+<td style="text-align: left;"><a
+href="https://github.com/goldfire/howler.js">howler.js</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a
+href="https://github.com/ashbaldry/video">video</a></td>
+<td style="text-align: left;"><a
+href="https://github.com/videojs/video.js">video.js</a></td>
+</tr>
 </tbody>
 </table>
