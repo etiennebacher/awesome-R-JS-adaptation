@@ -1350,5 +1350,11 @@ href="https://github.com/JohnCoene/charter">charter</a></td>
 <td style="text-align: left;"><a
 href="https://github.com/chartjs/Chart.js">chart.js</a></td>
 </tr>
+<tr class="even">
+<td style="text-align: left;"><a
+href="https://github.com/ateucher/rmapshaper">rmapshaper</a></td>
+<td style="text-align: left;"><a
+href="https://github.com/mbloch/mapshaper/">mapshaper</a></td>
+</tr>
 </tbody>
 </table>
